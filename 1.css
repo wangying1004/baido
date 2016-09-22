@@ -1,0 +1,571 @@
+#d1 {
+	    position: relative;
+	}
+	
+	#d2 {
+	    position: relative;
+	}
+	
+	#d3 {
+	    position: relative;
+	}
+	
+	.diyilan li {
+	    float: right;
+	    list-style-type: none;
+	    padding: 3px;
+	    font-size: 15px;
+	}
+	
+	.diyilan a {
+	    text-decoration: none;
+	}
+	
+	.denglu a:hover {
+	    background-color: grey;
+	    color: white;
+	}
+	
+	.diyilan a:active {
+	    color: grey;
+	}
+	
+	.denglu a:active {
+	    color: white;
+	}
+	
+	#erweima {
+	    position: absolute;
+	    top: 25px;
+	    right: 50px;
+	}
+	#kehuduan a:hover #erweima {
+	    display: block;
+	}
+	
+	.titlenews li {
+	    float: left;
+	    list-style-type: none;
+	    padding: 10px;
+	    font-size: 15px;
+	}
+	
+	.titlenews a {
+	    text-decoration: none;
+	}
+	
+	.titlenews {
+	    position: absolute;
+	    top: 0px;
+	    left: 285px;
+	}
+	
+	.titlenews a:active {
+	    color: grey;
+	}
+	
+	.titlenews a:hover {
+	    text-decoration: underline;
+	}
+	.baidulogo {
+	    position: absolute;
+	    top: 30px;
+	    left: 220px;
+	}
+	
+	.input {
+	    position: absolute;
+	    top: 50px;
+	    left: 330px;
+	}
+	
+	.btn {
+	    position: absolute;
+	    top: 50px;
+	    left: 788px;
+	    font-size: 20px;
+	}
+	
+	.help {
+	    position: absolute;
+	    top: 37px;
+	    left: 864px;
+	}
+	
+	.help li {
+	    list-style-type: none;
+	    float: left;
+	    padding: 5px;
+	}
+	
+	.help a {
+	    text-decoration: none;
+	    font-size: 12px;
+	}
+	
+	.help a:hover {
+	    text-decoration: underline;
+	}
+	
+	.select {
+	    position: absolute;
+	    top: 95px;
+	    left: 330px;
+	    font-size: 12px;
+	}
+	
+	.titleshouye {
+	    position: absolute;
+	    top: -15px;
+	    left: 140px;
+	    font-size: 15px;
+	}
+	.bgcolor{
+		width: 40px;
+		height: 20px;
+		text-align: center;
+	}
+	#firsttitle{
+		background-color: red;
+	}
+	.titleshouye li:hover{
+		background-color: red;
+	}
+	
+	.titleshouye li {
+	    list-style-type: none;
+	    float: left;
+	    color: white;
+	    padding: 10px;
+	}
+	
+	.titleshouye li a {
+	    color: white;
+	    text-decoration: none;
+	}
+	
+	.titleyaowen {
+	    font-size: 25px;
+	    position: absolute;
+	    top: 20px;
+	    left: 200px;
+	}
+	
+	.titleyaowen span a {
+	    text-decoration: none;
+	}
+	
+	.titlelist {
+	    position: absolute;
+	    top: 40px;
+	    left: 160px;
+	    font-size: 20px;
+	}
+	
+	.titlelist li {
+	    list-style-type: square;
+	}
+	
+	.titlelist a {
+	    text-decoration: none;
+	}
+	
+	.titlelist a:hover {
+	    text-decoration: underline;
+	}
+	
+	.titlelist a:active {
+	    color: #3f4067;
+	}
+	.titlelist1 {
+	    font-size: 11px;
+	    position: relative;
+	    top: 5px;
+	    left: -40px;
+	}
+	
+	.titlelist1 li {
+	    float: left;
+	    list-style-type: none;
+	}
+	
+	.titlelist2 {
+	    font-size: 11px;
+	    position: relative;
+	    top: 5px;
+	    left: -40px;
+	}
+	
+	.titlelist2 li{
+	    float: left;
+	    list-style-type: none;
+	}
+	
+	.titlelist3 {
+	    font-size: 11px;
+	    position: relative;
+	    top: 5px;
+	    left: -40px;
+	}
+	
+	.titlelist3 {
+	    list-style-type: none;
+	}
+	
+	.line1 {
+	    position: absolute;
+	    top: 190px;
+	    left: 30px;
+	}
+	
+	.titlelist4 {
+	    position: absolute;
+	    top: 245px;
+	    left: 0px;
+	    font-size: 14px;
+	}
+	
+	.titlelist4 li {
+	    list-style-type: disc;
+	}
+	
+	.titlelist4 li a {
+	    text-decoration: none;
+	}
+	
+	.titlelist4 a:hover {
+	    color: blue;
+	    text-decoration: underline;
+	}
+	
+	.titlelist5 {
+	    position: absolute;
+	    top: 435px;
+	    left: 0px;
+	    font-size: 14px;
+	}
+	
+	.titlelist5 li {
+	    list-style-type: disc;
+	}
+	
+	.titlelist5 li a {
+	    text-decoration: none;
+	}
+	
+	.titlelist5 a:hover {
+	    color: blue;
+	    text-decoration: underline;
+	}
+	
+	.titlelist6 {
+	    position: absolute;
+	    top: 620px;
+	    left: 0px;
+	    font-size: 14px;
+	}
+	
+	.titlelist6 li {
+	    list-style-type: disc;
+	}
+	
+	.titlelist6 li a {
+	    text-decoration: none;
+	}
+	
+	.titlelist6 a:hover {
+	    color: blue;
+	    text-decoration: underline;
+	}
+	
+	.titlelist7 {
+	    position: absolute;
+	    top: 805px;
+	    left: 0px;
+	    font-size: 14px;
+	}
+	
+	.titlelist7 li {
+	    list-style-type: disc;
+	}
+	
+	.titlelist7 li a {
+	    text-decoration: none;
+	}
+	
+	.titlelist7 a:hover {
+	    color: blue;
+	    text-decoration: underline;
+	}
+	
+	.titlelist8 {
+	    position: absolute;
+	    top: 990px;
+	    left: 0px;
+	    font-size: 14px;
+	}
+	
+	.titlelist8 li {
+	    list-style-type: disc;
+	}
+	
+	.titlelist8 li a {
+	    text-decoration: none;
+	}
+	
+	.titlelist8 a:hover {
+	    color: blue;
+	    text-decoration: underline;
+	}
+	#photoschange {
+	    position: absolute;
+	    top: 30px;
+	    left: 660px;
+	}
+	
+	.hot {
+	    position: absolute;
+	    top: 340px;
+	    left: 660px;
+	    font-size: 20px;
+	    color: blue;
+	    text-decoration: none;
+	}
+	
+	.duo {
+	    position: absolute;
+	    top: 342px;
+	    left: 1185px;
+	    font-size: 13px;
+	}
+	
+	.duo a {
+	    text-decoration: none;
+	}
+	
+	.duo a:hover {
+	    text-decoration: underline;
+	}
+	
+	.border {
+	    position: absolute;
+	    top: 385px;
+	    left: 650px;
+	    color: white;
+	    font-size: 20px;
+	}
+	
+	.border1 {
+	    position: absolute;
+	    top: 385px;
+	    left: 835px;
+	    color: white;
+	    font-size: 20px;
+	}
+	
+	.border2 {
+	    position: absolute;
+	    top: 385px;
+	    left: 1020px;
+	    color: white;
+	    font-size: 13px;
+	}
+	
+	.border3 {
+	    position: absolute;
+	    top: 385px;
+	    left: 1120px;
+	    color: white;
+	    font-size: 13px;
+	}
+	
+	.borderfloat div {
+	    float: left;
+	    margin: 2px;
+	    color: white;
+	}
+	
+	.borderfloat {
+	    position: relative;
+	    top: 478px;
+	    left: 647px;
+	    font-size: 12px;
+	}
+	
+	.title {
+	    font-size: 20px;
+	    position: absolute;
+	    top: 600px;
+	    left: 645px;
+	    text-decoration: none;
+	}
+	
+	.title:hover {
+	    text-decoration: underline;
+	}
+	
+	.fujia {
+	    position: absolute;
+	    top: 600px;
+	    left: 1150px;
+	    color: red;
+	    font-size: 13px;
+	}
+	
+	.fujia a {
+	    text-decoration: none;
+	}
+	
+	.title1 {
+	    font-size: 17px;
+	    position: relative;
+	    top: 598px;
+	    left: 185px;
+	}
+	
+	.title1 li {
+	    list-style-type: none;
+	    padding: 2px;
+	    float: left;
+	}
+	
+	.title1 li a {
+	    text-decoration: none;
+	}
+	
+	.title1 li a:hover {
+	    text-decoration: underline;
+	}
+	
+	.hr {
+	    position: absolute;
+	    top: 835px;
+	    left: 650px;
+	}
+	
+	.img1 {
+	    position: absolute;
+	    top: 870px;
+	    left: 657px;
+	}
+	
+	.add {
+	    position: absolute;
+	    top: 130px;
+	    left: 0px;
+	    font-size: 13px;
+	    color: white;
+	    background-color: grey;
+	}
+	
+	.ulimg {
+	    position: relative;
+	    top: 10px;
+	    left: 610px;
+	}
+	
+	.ulimg li {
+	    float: left;
+	    list-style-type: none;
+	    font-size: 13px;
+	    margin: 1px;
+	}
+	
+	.ulimg li a {
+	    text-decoration: none;
+	}
+	
+	.p {
+	    position: relative;
+	    top: 200px;
+	    left: 365px;
+	}
+	
+	.img2 {
+	    position: absolute;
+	    top: 1250px;
+	    left: 657px;
+	}
+	
+	.add1 {
+	    position: absolute;
+	    top: 130px;
+	    left: 0px;
+	    font-size: 13px;
+	    color: white;
+	    background-color: black;
+	}
+	
+	.ulli {
+	    position: absolute;
+	    top: 860px;
+	    left: 890px;
+	    font-size: 15px;
+	}
+	
+	.ulli ul li {
+	    list-style-type: none;
+	}
+	
+	.ulli li a {
+	    text-decoration: none;
+	}
+	
+	.ulli li a:hover {
+	    text-decoration: underline;
+	}
+	
+	.ulli ol {
+	    position: relative;
+	    top: 0px;
+	    left: 20px;
+	}
+	
+	.dropbtn {
+	    background-color: #352c53;
+	    color: white;
+	    font-size: 15px;
+	    cursor: pointer;
+	    border:none;
+	    height:40px;
+	    width: 60px; 
+	}
+	
+	.dropdown-content {
+	    background-color: #352c53;
+	    position: absolute; 
+	    display: none;
+	    color: white;
+	}
+	.dropdown-content a {
+	    color: white;
+	}
+	.dropdown-content li {
+	    display: block;
+	    padding: 2px 1px;
+	    list-style-type: none;
+	     height:40px;
+	    width: 60px; 
+	}
+	
+	/*.dropdown {
+	    position: relative;
+	    display: inline-block;
+	}*/
+	
+	.dropdown-content a:hover {
+	    background-color: #352c53;
+	}
+	
+	.dropdown:hover .dropbtn {
+	    background-color: red;
+	}
+	
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+	.last {
+	    position: absolute;
+	    top: 146px;
+	    left: 1145px;
+	}
