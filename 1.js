@@ -53,5 +53,17 @@
             photoschange.src = "3.jpg";
         }
     }
+    var deng = document.getElementById("deng");
+    deng.onclick=function(){
+    	if(document.getElementById('denglu').style.display="none"){
+    		document.getElementById('denglu').style.display="block"
+    	}
+    }
+    var btn = document.getElementById("btn");
+    btn.onclick=function(){
+    	if(document.getElementById('denglu').style.display="block"){
+    		document.getElementById('denglu').style.display="none"
+    	}
+    }
 
 }(window))
