@@ -39,9 +39,9 @@
 	    top: 25px;
 	    right: 50px;
 	}
-	#kehuduan a:hover #erweima {
+	/*#kehuduan a:hover #erweima {
 	    display: block;
-	}
+	}*/
 	
 	.titlenews li {
 	    float: left;
@@ -567,4 +567,9 @@
 	    position: absolute;
 	    top: 146px;
 	    left: 1145px;
+	}
+	#photo{
+		position: absolute;
+		top: 416px;
+		left: 685px;
 	}
