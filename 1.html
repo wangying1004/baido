@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8"/>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="1.css">
-	<script type="text/javascript" defer src="1.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <script type="text/javascript" defer src="1.js"></script>
 </head>
+
 <body>
-     <div id="d1" style="height: 130px;width: 100%;">
-        <ul class="diyilan" style="width:100%;">
+    <div id="d1" style="height: 130px;width: 100%;">
+        <ul class="di" style="width:100%;">
             <li><a href="">百度首页</a></li>
-            <li id="kehuduan"><a href="">百度新闻客户端</a>&nbsp;|</li>
+            <li id="kd"><a href="">百度新闻客户端</a>&nbsp;|</li>
             <li><a href="">注册</a>&nbsp;|</li>
             <li class="denglu" id="deng"><a href="#"><b>登录</b></a>&nbsp;|</li>
         </ul>
-        <img id="erweima" src="1.png" style="width: 100px;height: 100px;display: none; ">
+        <img id="tu" src="1.png" style="width: 100px;height: 100px;display: none; ">
         <ul class="titlenews" style="width: 1200px; ">
             <li>新闻</li>
             <li><a href=""> 网页</a></li>
@@ -27,7 +29,7 @@
             <li><a href="">百科</a></li>
             <li><a href="">文库</a></li>
         </ul>
-        <a href=""><img src="2.png" class="baidulogo" width="100px" height="50px"></a>
+        <a href=""><img src="2.png" class="logo" width="100px" height="50px"></a>
         <input class="input" type="text" name="" style="width: 455px;height: 30px; ">
         <button class="btn" style="height: 36px;width: 100px ">百度一下</button>
         <ul class="help" style="width: 100%; ">
@@ -39,7 +41,7 @@
             <input checked="" type="radio" name="name" value="">新闻全文
             <input type="radio" name="name" value="">新闻标题
         </form>
-        </div>
+    </div>
     <div id="d2" style="height: 40px;width: 100%;background-color: #352c53 ">
         <ul class="titleshouye" style="width: 100%; ">
             <li class="bgcolor" id="firsttitle"><a href="">首页</a></li>
@@ -58,13 +60,12 @@
             <li class="bgcolor"><a href="">个性推荐</a></li>
             <li class="bgcolor"><a href="">房产</a></li>
             <li class="bgcolor"><a href="">名站</a></li>
-            <li class="bgcolor"><a href="">更多</a></li>
         </ul>
     </div>
     <div id="d3" style="height: 800px;width: 100%; ">
         <div class="titleyaowen" style="width: 100% ">
             <a href=""> <b>热点要闻</b></a>&nbsp;<span>|</span> <span style="width: 100%"><a href=""> <b>个性推荐</b></a></span> </div>
-            <div>
+        <div>
             <ul class="titlelist" style="width: 100%">
                 <li>
                     <a href=""> <b>习近平致信祝贺第19届国际麻风大会开幕</b></a>
@@ -193,8 +194,10 @@
             <br>
             </ul>
         </div>
-        <div id="click_photoschange"><a href="">  <img id="photoschange" src="3.jpg" style="width: 550px;height: 300px; "></a></div>
-        <p><a href="" class="hot" style="width: 100% ">热搜新闻词</a><span class="duo" style="width: 100% "><a href=""> 更多</a></span> </p>
+        <div id="click_photoschange">
+            <a href=""> <img id="photoschange" src="3.jpg" style="width: 550px;height: 300px; "></a>
+        </div>
+        <p><a href="" class="hot" style="width: 100% ">热搜新闻词</a><span class="xl" style="width: 100% "><a href=""> 更多</a></span> </p>
         <a href="">
             <div class="border" style="width: 180px;height: 90px;background-color: blue; ">
                 <br> 习近平：早日实现消
@@ -260,7 +263,7 @@
                 </div>
             </a>
         </div>
-        <div><a href="" class="title" style="width: 100% ">百度百家</a><span class="fujia" style="width: 100% "><a href="">加入百家号</a> </span>
+        <div><a href="" class="title" style="width: 100% ">百度百家</a><span class="fj" style="width: 100% "><a href="">加入百家号</a> </span>
         </div>
         <ul class="title1" style="width: 100% ">
             <li><a href="">财经</a></li>
@@ -368,7 +371,7 @@
             </ol>
         </div>
     </div>
-     <div class="last">
+    <div class="last">
         <div class="dropdown">
             <button class="dropbtn" class="bgcolor">更多</button>
             <div class="dropdown-content">
@@ -378,23 +381,38 @@
             </div>
         </div>
     </div>
-
     <div id="photo">
-           <button id="click1_photoschange">上一张</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-           <button id="cp">下一张</button>
+        <button id="click1_photoschange">上一张</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <button id="cp">下一张</button>
+    </div>
+    <div id="denglu" style="width:400px;height:400px;background-color:#f1f1f1;display:none">
+        <img src="19.png" id="img18">
+        <img src="14.png" id="img">
+        <img src="15.png" id="img1">
+        <p id="p"><a href="#">短信登录验证</a></p>
+        <input type="text" placeholder="手机号/邮箱/用户名" name="name" id="input" style="height:30px;width:330px;">
+        <p>
+            <input type="text" placeholder="密码" name="name" id="pass" style="height:30px;width:330px;">
+            <input type="checkbox" name="" id="zidong"><span class="class">下次自动登录</span>
+            <li class="li" style="color:blue">登录遇到问题</li>
+            <div id="denglukuang" style="width:330px;height:40px;background-color:blue">
+                <center>
+                    <p style="color:yellow">登录</p>
+                </center>
+            </div>
+            <p id="p1"><a href="#">立即注册</a></p>
+
+            <img src="20.png" id="img20">
     </div>
 
-    <div id="denglu" style="width:400px;height:400px;background-color:#f1f1f1;display:none">
-         <button id="btn">no</button>
-         <img src="14.png" id="img">
-         <img src="15.png" id="img1">
-         <p id="p"><a href="#">短信登录验证</a></p>
-         <input type="text" placeholder="手机号/邮箱/用户名" name="name" id="input" style="height:30px;width:330px;"><p>
-         <input type="text" placeholder="密码" name="name" id="pass" style="height:30px;width:330px;">
-         <input type="checkbox" name="" id="zidong"><span class="class">下次自动登录</span>
-         <li class="li" style="color:blue">登录遇到问题</li>
-         <div id="denglukuang" style="width:330px;height:40px;background-color:blue"><center><p style="color:yellow">登录</p></center></div>
-         <p id="p1"><a href="#">立即注册</a></p>
-    </div>
-</body>             
+           <div  id="er" style="width:400px;height:400px;background-color:#f1f1f1;display:none">
+                <img src="19.png" id="img8">
+                <img src="14.png" id="img9">
+                <img src="21.png" id="img21">
+                 <p id="erdl">请使用<span style="color:blue">百度app</span>扫描登录</p>
+                
+
+           </div>
+</body>
+
 </html>

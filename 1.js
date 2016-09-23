@@ -1,18 +1,18 @@
 (function() {
-    var kehuduan = document.getElementById('kehuduan');
-    var erweima = document.getElementById('erweima');
-    kehuduan.onmouseover = function() {
-        if (erweima.style.display = "none") {
-            erweima.style.display = "block";
+    var kd = document.getElementById('kd');
+    var tu = document.getElementById('tu');
+    kd.onmouseover = function() {
+        if (tu.style.display = "none") {
+            tu.style.display = "block";
         } else {
-            erweima.style.display = "none";
+            tu.style.display = "none";
         }
     }
-    kehuduan.onmouseout = function() {
-        if (erweima.style.display = "block") {
-            erweima.style.display = "none";
+    kd.onmouseout = function() {
+        if (tu.style.display = "block") {
+            tu.style.display = "none";
         } else {
-            erweima.style.display = "block";
+            tu.style.display = "block";
         }
     }
     var photoschange = document.getElementById('photoschange');
@@ -59,11 +59,26 @@
     		document.getElementById('denglu').style.display="block"
     	}
     }
-    var btn = document.getElementById("btn");
-    btn.onclick=function(){
+    var img = document.getElementById("img18");
+    img.onclick=function(){
     	if(document.getElementById('denglu').style.display="block"){
     		document.getElementById('denglu').style.display="none"
     	}
     }
+
+    var img20 = document.getElementById('img20');
+    img20.onclick = function(){
+        if(document.getElementById('er').style.display="none"){
+            document.getElementById('er').style.display="block";
+        }
+    }
+
+    var img8 = document.getElementById('img8');
+    img8.onclick = function(){
+        if(document.getElementById('er').style.display="block"){
+            document.getElementById('er').style.display="none";
+        }
+    }
+
 
 }(window))
